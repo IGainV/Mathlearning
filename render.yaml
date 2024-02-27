@@ -1,0 +1,6 @@
+
+services:
+  - type: web
+    name: Mathlearning
+    env: docker
+    plan: free
