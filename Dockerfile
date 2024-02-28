@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/IGainV/Mathlearning.git
+RUN git clone https://github.com/IGainV/Learnmath.git
 
-WORKDIR /Mathlearning
+WORKDIR /Learnmath
 
 RUN npm install
 
